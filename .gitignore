@@ -1,0 +1,44 @@
+# System/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets and local config
+.env
+.env.*
+*.pem
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+known_hosts
+
+# Dependencies and builds
+node_modules/
+dist/
+build/
+Library/
+Temp/
+Obj/
+Logs/
+__pycache__/
+*.pyc
+
+# Private/raw project assets
+raw_project_files/
+private_assets/
+*.db
+*.sqlite
+*.sqlite3
+*.csv
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.psd
+*.docx
+*.pdf
+*.unitypackage
+
