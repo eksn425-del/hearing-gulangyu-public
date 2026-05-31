@@ -6,6 +6,13 @@
 Site / route data
       |
       v
+AI interaction layer
+      |
+      +-- voice / text / photo input
+      +-- speech correction and intent interpretation
+      +-- map-grounded guide response
+      |
+      v
 Graph routing engine
       |
       +-- route weighting by distance, slope, friction, user profile
@@ -37,6 +44,18 @@ The backend code samples show:
 
 Raw database and CSV files are excluded from this public repository.
 
+## AI Interaction Layer
+
+The AI layer is designed to connect API-based conversation with Gulangyu-specific context:
+
+- visitor question interpretation
+- voice correction and intent normalization
+- photo-question interpretation
+- map node and heritage-point grounding
+- accessibility-aware response framing
+
+The public repository documents the product logic but excludes API keys, `.env` files, deployment URLs, and private implementation details.
+
 ## Unity Sample Layer
 
 The Unity samples show:
@@ -57,4 +76,3 @@ The repository includes selected public-safe charts and map assets to communicat
 - accuracy and baseline comparison
 - confusion matrix
 - A/B test summary figures
-

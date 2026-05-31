@@ -1,10 +1,24 @@
 # Hearing Gulangyu
 
-Accessible Heritage Navigation & Digital Twin System
+Context-aware AI Accessible Guide & Digital Twin Validation System
 
-Hearing Gulangyu is a completed cross-disciplinary project that combines an accessibility-oriented navigation app, Unity-based digital twin simulation, route-risk modeling, sensory heritage mapping, and evaluation charts for Gulangyu Island.
+Hearing Gulangyu is a completed cross-disciplinary project that combines a context-aware AI guide, accessibility-oriented navigation app, Unity-based digital twin simulation, route-risk modeling, sensory heritage mapping, and evaluation charts for Gulangyu Island.
 
 This repository is a public-safe flagship showcase. It is not the full private project archive and does not include raw data, deployment files, database files, environment variables, internal academic documents, or complete Unity/App source trees.
+
+## Product Positioning
+
+This project should be understood as an **AI-assisted spatial experience product**, not only a cultural tourism app. The AI layer is designed around site context:
+
+```text
+visitor voice / text / photo + location + user profile + map context
+-> AI interpretation and correction
+-> route-risk algorithm and site knowledge grounding
+-> accessible guide answer, route suggestion, or warning
+-> Unity digital twin validation and human design iteration
+```
+
+The product value is that AI responses are not generic chat. They are constrained by Gulangyu's map, heritage points, route risk model, user type, and accessibility needs.
 
 ## Why This Project Matters
 
@@ -14,12 +28,27 @@ This project explores how digital navigation can move beyond shortest-path routi
 
 ## What I Built
 
+- A context-aware AI guide workflow for voice, text, and photo-based visitor questions.
 - A navigation logic prototype for accessibility-aware route selection.
 - A graph-based routing engine using slope, friction, distance, and user profiles.
+- A site-grounding layer that connects AI responses with map points, route context, and sensory heritage notes.
+- A voice correction workflow to improve AI interaction for tourists and accessibility scenarios.
 - A Unity digital twin simulation with a digital cane, hazard zones, route following, and exposure counting.
 - Sensory and heritage-mapping assets for site storytelling.
 - Evaluation figures comparing route behavior, hazard exposure, completion time, and algorithm performance.
 - A portfolio-ready system narrative connecting app, simulation, and research workflow.
+
+## AI Product Loop
+
+| Product layer | Current role |
+| --- | --- |
+| Input | Visitor voice, text, photo, current location, destination, user type |
+| AI interpretation | Speech correction, intent recognition, photo/question interpretation, guide response drafting |
+| Spatial grounding | Map nodes, heritage points, sensory notes, route-risk weights, accessibility constraints |
+| Algorithmic decision | Route weighting by distance, slope, friction, and user profile |
+| Output | Guide answer, route suggestion, turn instruction, accessibility warning, heritage explanation |
+| Validation | Unity route-following simulation, hazard exposure counting, A/B evaluation figures |
+| Feedback | User re-asks, route preference changes, designer adjusts weights and context prompts |
 
 ## Repository Map
 
@@ -48,12 +77,23 @@ This project explores how digital navigation can move beyond shortest-path routi
 
 ## Technical Highlights
 
+- Context-aware AI guide workflow connecting API-based interaction with map and route context.
+- Voice correction and intent routing for more robust tourist-AI interaction.
+- Photo-question flow for visual visitor problems and guide assistance.
 - Multi-profile route weighting for normal, elderly, disabled, and blind-user scenarios.
 - Route weights combining distance, slope, surface friction, and accessibility constraints.
 - Direction and turn-instruction logic for navigation guidance.
 - Unity ray-based digital cane prototype for hazard detection.
 - Hazard exposure metrics for evaluating route safety.
 - Public-safe chart set for communicating results without exposing raw data.
+
+## Product Documents
+
+- [AI product flow](docs/AI_PRODUCT_FLOW.md)
+- [Context-aware AI guide](docs/CONTEXT_AWARE_AI_GUIDE.md)
+- [Voice and photo interaction](docs/VOICE_PHOTO_INTERACTION.md)
+- [Routing and validation metrics](docs/ROUTING_AND_VALIDATION_METRICS.md)
+- [Interview talking points](docs/INTERVIEW_TALKING_POINTS.md)
 
 ## Code Samples
 
@@ -88,7 +128,6 @@ See [`docs/public_release_notes.md`](docs/public_release_notes.md) for details.
 
 ## Status
 
-Completed project, public-safe showcase release.
+Completed project, public-safe flagship showcase release.
 
 The full private archive is stored offline and is not published.
-
