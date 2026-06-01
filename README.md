@@ -89,6 +89,7 @@ This project explores how digital navigation can move beyond shortest-path routi
 
 ## Product Documents
 
+- [AI product flow diagram](docs/AI_PRODUCT_FLOW_DIAGRAM.md)
 - [AI product flow](docs/AI_PRODUCT_FLOW.md)
 - [Context-aware AI guide](docs/CONTEXT_AWARE_AI_GUIDE.md)
 - [Voice and photo interaction](docs/VOICE_PHOTO_INTERACTION.md)
