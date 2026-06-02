@@ -2,6 +2,14 @@
 
 Context-aware AI Accessible Guide & Digital Twin Validation System
 
+## 中文项目简介
+
+**听见鼓浪屿** 是一个面向历史街区游览与无障碍导航的 AI 空间体验产品原型。项目将游客语音 / 文本 / 图片提问、当前位置、用户类型、地图节点、坡度 / 路面风险和文化遗产知识结合起来，形成一个 context-aware AI guide workflow。
+
+它不是普通旅游聊天机器人，而是一个以空间上下文为约束的 AI 导览与路径辅助系统：AI 负责理解问题、纠正语音、组织导览回答；路径算法负责风险评分和路线选择；Unity 数字孪生与评估图表用于验证路线安全性和体验效果。
+
+**适合投递方向：** AI 产品实习生 / Agent Workflow 产品实习生 / 空间智能产品实习生 / 大模型应用产品实习生。
+
 Hearing Gulangyu is a completed cross-disciplinary project that combines a context-aware AI guide, accessibility-oriented navigation app, Unity-based digital twin simulation, route-risk modeling, sensory heritage mapping, and evaluation charts for Gulangyu Island.
 
 This repository is a public-safe flagship showcase. It is not the full private project archive and does not include raw data, deployment files, database files, environment variables, internal academic documents, or complete Unity/App source trees.
@@ -94,6 +102,8 @@ This project explores how digital navigation can move beyond shortest-path routi
 - [Context-aware AI guide](docs/CONTEXT_AWARE_AI_GUIDE.md)
 - [Voice and photo interaction](docs/VOICE_PHOTO_INTERACTION.md)
 - [Routing and validation metrics](docs/ROUTING_AND_VALIDATION_METRICS.md)
+- [中文用户研究摘要](docs/USER_RESEARCH_SUMMARY_CN.md)
+- [中文 RAG / Workflow 架构说明](docs/RAG_WORKFLOW_ARCHITECTURE_CN.md)
 - [Interview talking points](docs/INTERVIEW_TALKING_POINTS.md)
 
 ## Code Samples
