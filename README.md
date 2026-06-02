@@ -8,7 +8,7 @@ Context-aware AI Accessible Guide & Digital Twin Validation System
 
 它不是普通旅游聊天机器人，而是一个以空间上下文为约束的 AI 导览与路径辅助系统：AI 负责理解问题、纠正语音、组织导览回答；路径算法负责风险评分和路线选择；Unity 数字孪生与评估图表用于验证路线安全性和体验效果。
 
-**适合投递方向：** AI 产品实习生 / Agent Workflow 产品实习生 / 空间智能产品实习生 / 大模型应用产品实习生。
+**项目关键词：** 空间智能、无障碍导航、Context-aware AI Guide、Workflow、数字孪生验证。
 
 Hearing Gulangyu is a completed cross-disciplinary project that combines a context-aware AI guide, accessibility-oriented navigation app, Unity-based digital twin simulation, route-risk modeling, sensory heritage mapping, and evaluation charts for Gulangyu Island.
 
