@@ -28,7 +28,12 @@ The guide design uses the visitor's location and nearby heritage points to expla
 
 In Unity, simulated agents followed routes and recorded modeled hazard events. The [route-following sample](code_samples/unity/RouteFollower.cs) shows how the scene handles waypoints; the digital-cane sample shows how ray casts detect tagged obstacles and trigger audio cues. The evaluation compared distance and completion time alongside simulated hazard exposure, so changes in modeled exposure could be read alongside changes in travel effort.
 
-In ten paired Unity simulation runs, routes chosen with the safety-weighted profile recorded modeled hazard events at 13.5%, down from 41.0% on the shortest-path routes, while adding about 80 m and 41 s per route.
+Ten paired Unity simulation runs compared the two route profiles:
+
+| Route profile | Modeled hazard events | Route length | Completion time |
+| --- | --- | --- | --- |
+| Shortest path | 41.0% | baseline | baseline |
+| Safety-weighted | 13.5% | +80 m | +41 s |
 
 ![Modeled hazard events by route profile](assets/figures/paper_ab_hazard_ratio.png)
 
